@@ -43,6 +43,8 @@ Engineering focus: stable collector/UI contracts, bounded history, deterministic
 
 ## Further engineering work
 
+- [Aurora NetView](https://github.com/Derek-Poe/Aurora-NetView) modernizes my DNS telemetry pipeline with atomic SQLite rollups and checkpoints, late-arrival handling, fair summary refresh, and exact-output benchmarks.
+- [Smallwinner Control](https://github.com/Derek-Poe/Smallwinner-Control) demonstrates my Android resource-policy work through a deterministic Go simulator, thermal hysteresis, baseline restoration, and a companion native app catalog. This release is validated without a physical tablet.
 - [PowerShell Request Engine](https://github.com/Derek-Poe/PowerShell-RequestEngine) modernizes my CRM server's scheduler with bounded admission, isolated runspaces, deadlines, and cooperative cancellation.
 - [Ensemble3D](https://github.com/Derek-Poe/Ensemble3D) extracts my 3D workbench's local job and asset pipeline to demonstrate SQLite transaction correctness, immutable versions, and detection of interrupted work.
 - [E3P Studio](https://github.com/Derek-Poe/E3PStudio) extracts my toolpath transformation work into an offline geometry demo with state-preservation tests and reproducible synthetic visuals.
