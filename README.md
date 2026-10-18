@@ -41,6 +41,12 @@ Engineering focus: stable collector/UI contracts, bounded history, deterministic
 | IPUAPI | [Offline protocol examples](https://github.com/Derek-Poe/IPUAPI#readme) | Packet fixtures and job-state checks without sending commands to devices |
 | SitebossHub | [Run the dashboard](https://github.com/Derek-Poe/SitebossHub#run-locally) | Synthetic monitoring data, API tests, and browser checks; the original production collectors are separate |
 
+## Further engineering work
+
+- [PowerShell Request Engine](https://github.com/Derek-Poe/PowerShell-RequestEngine) modernizes my CRM server's scheduler with bounded admission, isolated runspaces, deadlines, and cooperative cancellation.
+- [Ensemble3D](https://github.com/Derek-Poe/Ensemble3D) extracts my 3D workbench's local job and asset pipeline to demonstrate SQLite transaction correctness, immutable versions, and detection of interrupted work.
+- [E3P Studio](https://github.com/Derek-Poe/E3PStudio) extracts my toolpath transformation work into an offline geometry demo with state-preservation tests and reproducible synthetic visuals.
+
 ## Background
 
 I have worked across production software, data systems, infrastructure administration, and communications electronics. I am a former Marine Corps Sergeant and completed my DCS at Colorado Technical University in 2026.
