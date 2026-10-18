@@ -20,7 +20,7 @@ Engineering focus: bounded buffering, stale-frame dropping, independent media an
 
 ### [IPUAPI](https://github.com/Derek-Poe/IPUAPI)
 
-A PowerShell web management system built around a reverse-engineered binary UDP command protocol. I used packet analysis to reconstruct command layouts, insert device-specific parameters, and support reporting-rate changes and firmware operations.
+A PowerShell web management system built around a reverse-engineered binary UDP command protocol. I used Wireshark packet analysis to reconstruct command layouts, insert device-specific parameters, and support reporting-rate changes and firmware operations. The published package extracts the command builders and job-state logic into an offline, tested module with synthetic identifiers; it includes sanitized historical references to the original server.
 
 Engineering focus: protocol interoperability, queued operations, verification against reported device state, and process watchdogs.
 
@@ -29,6 +29,15 @@ Engineering focus: protocol interoperability, queued operations, verification ag
 A sensor-monitoring dashboard originally backed by PowerShell collectors, packaged with a synthetic FastAPI backend. The browser UI includes Canvas sparklines, sensor drill-down, history, alarms, and generator-run views.
 
 Engineering focus: stable collector/UI contracts, bounded history, deterministic simulation, concurrent access, and observable system state.
+
+## Inspect and reproduce
+
+| Project | Start here | Evidence and scope |
+| --- | --- | --- |
+| PSAccel | [Filtering examples and validation](https://github.com/Derek-Poe/PSAccel#readme) | Correctness checks for the maintained module and a separately identified historical performance study |
+| yPad | [Build and stream checks](https://github.com/Derek-Poe/yPad#readme) | Linux builds and synthetic transport checks; device-specific capture, display, and input need the documented hardware setup |
+| IPUAPI | [Offline protocol examples](https://github.com/Derek-Poe/IPUAPI#readme) | Packet fixtures and job-state checks without sending commands to devices |
+| SitebossHub | [Run the dashboard](https://github.com/Derek-Poe/SitebossHub#run-locally) | Synthetic monitoring data, API tests, and browser checks; the original production collectors are separate |
 
 ## Background
 
