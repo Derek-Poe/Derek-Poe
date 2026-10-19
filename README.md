@@ -43,6 +43,7 @@ Engineering focus: stable collector/UI contracts, bounded history, deterministic
 
 ## Further engineering work
 
+- [AudioMonitor Workbench](https://github.com/Derek-Poe/AudioMonitor-Workbench) extracts my multi-source media system into a synthetic demo with durable jobs, interval correlation, searchable transcripts, and synchronized timeline playback.
 - [Aurora NetView](https://github.com/Derek-Poe/Aurora-NetView) modernizes my DNS telemetry pipeline with atomic SQLite rollups and checkpoints, late-arrival handling, fair summary refresh, and exact-output benchmarks.
 - [Smallwinner Control](https://github.com/Derek-Poe/Smallwinner-Control) demonstrates my Android resource-policy work through a deterministic Go simulator, thermal hysteresis, baseline restoration, and a companion native app catalog. This release is validated without a physical tablet.
 - [PowerShell Request Engine](https://github.com/Derek-Poe/PowerShell-RequestEngine) modernizes my CRM server's scheduler with bounded admission, isolated runspaces, deadlines, and cooperative cancellation.
